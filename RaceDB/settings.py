@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 import os
 import sys
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+CSRF_TRUSTED_ORIGINS = ['https://manager.vg-timing.com']
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '+m^ehjjzj=%rk+9)%zc@y2x%cfwno-$nb+4o(5ttez6kw)9)8w'
@@ -21,7 +22,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-LOGIN_URL='/RaceDB/Login/'
+LOGIN_URL='/Login/'
 
 # Application definition
 
