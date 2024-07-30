@@ -1,2 +1,2 @@
-export IMAGE="esitarski/racedb"
-export TAG="v3.0.72-private"
+export IMAGE="guivdr/vg-timing-manager"
+export TAG="v1.0.2-private"
